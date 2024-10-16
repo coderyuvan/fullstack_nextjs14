@@ -23,3 +23,5 @@ create new user
 
 email folder for creating emial template
 helpers for sending email
+
+# Lecture 5(Signup user and custom OTP in NextJS)
