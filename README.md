@@ -12,3 +12,14 @@ ZOD use krenge
 nextjs edge time framework h jaise need pdti h tb execute hota not ki ek baar sever run hua to chlta rhega
 
 in nextjs hr api m databse connect krna h or database connect k code m likhna h ki agr phle se connection established h to use that else make a new connection
+
+# Lecture 4(Setup Resend email with NextJS)
+flow for siugnup
+if existinguserby email exsist then
+ if it is verified sucess :false
+ else save the updated user
+else 
+create new user
+
+email folder for creating emial template
+helpers for sending email
