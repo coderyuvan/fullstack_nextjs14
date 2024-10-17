@@ -25,3 +25,23 @@ email folder for creating emial template
 helpers for sending email
 
 # Lecture 5(Signup user and custom OTP in NextJS)
+flow for siugnup
+if existinguserby email exsist then
+ if it is verified sucess :false
+ else save the updated user
+else 
+create new user
+
+# Lecture 6(NEXT AUTH)
+how to access credentials.identifier.username like this
+options m for signin
+
+# first give provider then callback then pages then startegy(kis basis p login de rha hu)
+pages:"/sign-in" page design bhi ni krna pdega next auth kr lega
+callbacks m jwt or seesion hi modified honge
+
+tokens and session k ander maximum data daaldo taaki jb jo access krna hm kr ske it will cause payload size but will reduce database calls
+
+for testing 
+src/app/(auth)/sign-in/page.tsx this for  grouping not counted in route only for signin signup veirfy
+created context folder for authprovider
