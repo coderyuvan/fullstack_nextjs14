@@ -45,3 +45,14 @@ tokens and session k ander maximum data daaldo taaki jb jo access krna hm kr ske
 for testing 
 src/app/(auth)/sign-in/page.tsx this for  grouping not counted in route only for signin signup veirfy
 created context folder for authprovider
+
+# Summary of NEXTAUTH
+2 cheezo ki knowledge chaiye providers and callbacks
+src/app/api/auth/[...nexthauth]/option.tsandroute.ts ---> folder structure
+providers m creadentials die h to authorize ki strategy bhi hamari khudki hogi 
+github vgera se login hota to next auth krdeta
+then cll backs ko modify kra for reducing db calls tokens session m saara data daala h
+middleware run krna pdega bcoz nextauth usi p run hota h
+
+sign-in k page k lie (auth) naam ka bundle bnaya isme saare auth wale frontend p pages rkhe 
+then wrapper k lie context bnaya
