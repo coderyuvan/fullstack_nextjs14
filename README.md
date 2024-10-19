@@ -56,3 +56,13 @@ middleware run krna pdega bcoz nextauth usi p run hota h
 
 sign-in k page k lie (auth) naam ka bundle bnaya isme saare auth wale frontend p pages rkhe 
 then wrapper k lie context bnaya
+
+# Lecture 7(OTP verification and unique username check in Nextjs)
+created another route in api unique-username for functionality ki username available h ya nhi and in route.ts
+zod se checking krenge to username schema import krna hoga 
+and zod ek query schema dega
+
+sample url for unique username
+http://localhost:3000/api/cuu?username=hitesh
+
+then second route created verify-code route
