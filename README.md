@@ -66,3 +66,20 @@ sample url for unique username
 http://localhost:3000/api/cuu?username=hitesh
 
 then second route created verify-code route
+
+# Lecture 8(Message API with aggregation pipeline)
+route 1 accept-messages :-
+used get server session from next auth to get the session and session m user inject kia tha to vha se uski id mil jaayegi isko auth options dene pdte h compulsory h
+
+first post request (status update krde)
+jo currently logged in user h vo toggle p click krkr 
+accpet ya deny kr paaye msges ko
+
+second method get request (status bta de yes or no)
+simply true false return krega 
+
+route 2: get-messages
+use aggegration  pipelines bcoz data modleing m messges apne aap m ek interface h isliye 
+in aggegration pipeline if aapka userid string m h to error dega in pipeline
+const userId = new mongoose.Types.ObjectId(user.id); use that
+findbyid m no need 
