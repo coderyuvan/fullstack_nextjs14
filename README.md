@@ -87,3 +87,20 @@ findbyid m no need
 route 3:send-mesaages
 
 # Lecture 9 (Integrating AI features in NextJS project)
+used GROQ_API   
+
+# Lecture 10(React hook form, shadcn and debouncing)
+username ko baar baar request maar k check krna hoga ki uniquely available h ya nhi 
+to db calls v reduce krna hoga so we will use debouncing techniques
+
+backend p request debounced username se jaayega to avoid load
+
+# ZOD implementation in frontend
+const form=useForm({
+    resolver:jo resolver chaiye(need a schema),
+    defaultValues: {
+        username: "",
+        email: "",
+        password: "", depend on ur form values
+      },
+  })
