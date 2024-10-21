@@ -83,3 +83,7 @@ use aggegration  pipelines bcoz data modleing m messges apne aap m ek interface 
 in aggegration pipeline if aapka userid string m h to error dega in pipeline
 const userId = new mongoose.Types.ObjectId(user.id); use that
 findbyid m no need 
+
+route 3:send-mesaages
+
+# Lecture 9 (Integrating AI features in NextJS project)
