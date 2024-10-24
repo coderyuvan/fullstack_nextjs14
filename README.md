@@ -109,3 +109,6 @@ const form=useForm({
   auth/verify/[username] 
   [] for dynamic data 
   params se data lena h to we will use useparam
+
+  # Lecture 12(signIn page using next auth)
+  signin page m user ko signin krna hoga to we will use next auth signin method
