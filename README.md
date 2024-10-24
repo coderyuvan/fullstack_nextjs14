@@ -104,3 +104,8 @@ const form=useForm({
         password: "", depend on ur form values
       },
   })
+
+  # Lecture 11(OTP verification in NextJS)
+  auth/verify/[username] 
+  [] for dynamic data 
+  params se data lena h to we will use useparam
