@@ -25,8 +25,7 @@ import Credentials from "next-auth/providers/credentials";
 
 
 const  signInPage = () => {
-  
-  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const { toast } = useToast()
   const router=useRouter()
   const form=useForm<z.infer<typeof signInSchema>>({
