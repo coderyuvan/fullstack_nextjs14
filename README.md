@@ -112,3 +112,11 @@ const form=useForm({
 
   # Lecture 12(signIn page using next auth)
   signin page m user ko signin krna hoga to we will use next auth signin method
+
+  # Lecture 13(Navbar and message card with bug fixes in Nextjs)
+
+  component bnanya h navbar.tsx usme useSession import kia h mostly frontend m jwt verification basically token based cheze isi se hoti h
+
+  jha bhi use keyword dikhe to yhe ek method h to hook se datalena pdega jo bhi data gya h user(next-auth) wale k sesssion k ander gya h wha se lena pdega
+
+  component 2 message card
