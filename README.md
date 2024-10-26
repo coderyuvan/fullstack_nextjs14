@@ -120,3 +120,15 @@ const form=useForm({
   jha bhi use keyword dikhe to yhe ek method h to hook se datalena pdega jo bhi data gya h user(next-auth) wale k sesssion k ander gya h wha se lena pdega
 
   component 2 message card
+
+
+  # use client vha dena h jha hooks vgera sb use ho  rhe ho
+
+
+  # Leture 14(Building User Dashboard)
+  mistake not to be done
+  toggle button is also a form dont use state as react-hook form is a b ig library being used so code consistancy is most priority
+
+fetch accept message for getting the state
+fetch message for getting all messages
+  
